@@ -1,11 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Counter from "./componentTeste";
-import Logo from "./components/logo";
+import HeaderComponent from "./components/HeaderComponent/HeaderComponent";
+import HeroComponent from "./components/HeroComponent/HeroComponent";
 export default function Home() {
   return (
     <main>
-      <Logo></Logo>
+      <HeaderComponent></HeaderComponent>
+      <HeroComponent></HeroComponent>
     </main>
   );
 }
