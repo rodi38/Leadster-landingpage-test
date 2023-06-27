@@ -6,7 +6,7 @@ import { TfiInstagram } from "react-icons/tfi"
 
 function FooterComponent() {
   return (
-    <div className="flex flex-col  items-center bg-[#F3F3F3] w-full pb-7">
+    <footer className="flex flex-col  items-center bg-[#F3F3F3] w-full pb-7">
       <Image src={FooterLogo}></Image>
       <p className="">Transformando visitantes em clientes.</p>
       <div className="flex flex-row justify-around w-full mt-5">
@@ -54,7 +54,7 @@ function FooterComponent() {
 
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 
