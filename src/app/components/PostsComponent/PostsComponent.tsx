@@ -3,7 +3,7 @@ import Image from "next/image";
 import Thumbnail from "../../../../public/assets/thumbnail.png";
 import { fetchData, updateData } from "../../services/DataService"
 export async function PostsComponent() {
-    const data: any[] = await updateData();
+    const data = await updateData();
   return (
     <div className="grid grid-cols-3 grid-rows-3 w-[60%] mx-auto gap-2  mt-4">
       {data
