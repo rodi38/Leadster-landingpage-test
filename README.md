@@ -34,10 +34,20 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-ToDo: 
+## ToDo: 
 
 - [X] Landing page base for Desktop
 - [ ] Responsive for mobile
 - [X] Dynamic data for videos
 - [ ] Hover buttons and animations
+- [ ] Pagination
 
+## Sobre o projeto: 
+
+
+Primeiramente falo que está sendo minha primeira vez utilizando um framework deste tipo, também nunca usei React na minha vida. Foi um tanto quanto complicado de se acostumar como funciona, principalmente as questões de "States" porém com muita luta consegui fazer o projeto rodar.
+
+Organizei o codigo seguindo uma estrutura padrão de componentes, usando da pasta app nativa do next. Inicialmente pretendia aplicar um MVC mas vi que não era necessário por se tratar de uma simples landing-page. Basicamente cada componente tem sua pasta e segue uma linha padrão onde no final eles são levados para o componente Home para ser carregado. É possivel também notar que tentei utilizar do json server para fazer uma espécie de "api externa" e pegar as requisições, porém no entanto devido a minha falta de costume tive de desistir e optar por importar diretamente do json.
+
+Para rodar o projeto basta clicar no botão azul com o nome "code", copiar o link https, abir o terminal em uma pasta desejada e digitar o seguinte comando: git clone <i>link copiado</i> e dê enter.
+Após clonar o repositório abra o terminal nesta pasta que foi gerada e digite o seguinte comando: npm run dev, dê enter e terá seu projeto rodando no endereço http://localhost:3000/
