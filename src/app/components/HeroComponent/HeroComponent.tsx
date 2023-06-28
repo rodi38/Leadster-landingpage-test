@@ -5,7 +5,7 @@ import Icon from "../../../../public/assets/asset-header.png";
 function HeroComponent() {
   return (
     <div
-      className={`${styles.herobg} flex justify-center flex-col items-center pt-[50px] pb-3`}
+      className={`${styles.herobg} flex justify-center flex-col items-center pt-[50px] pb-3 `}
     >
       <button className="rounded-t-full rounded-r-full border-2 border-sky-500 p-1 pl-5 pr-5 text-[#007EFF] font-bold text-1xl">
         WEBINARS EXCLUSIVOS
