@@ -50,5 +50,6 @@ Primeiramente falo que está sendo minha primeira vez utilizando um framework de
 
 Organizei o codigo seguindo uma estrutura padrão de componentes, usando da pasta app nativa do next. Inicialmente pretendia aplicar um MVC mas vi que não era necessário por se tratar de uma simples landing-page. Basicamente cada componente tem sua pasta e segue uma linha padrão onde no final eles são levados para o componente Home para ser carregado. É possivel também notar que tentei utilizar do json server para fazer uma espécie de "api externa" e pegar as requisições, porém no entanto devido a minha falta de costume tive de desistir e optar por importar diretamente do json.
 
-Para rodar o projeto basta clicar no botão azul com o nome "code", copiar o link https, abir o terminal em uma pasta desejada e digitar o seguinte comando: git clone <i>link copiado</i> e dê enter.
-Após clonar o repositório abra o terminal nesta pasta que foi gerada e digite o seguinte comando: npm run dev, dê enter e terá seu projeto rodando no endereço http://localhost:3000/
+Para rodar o projeto basta clicar no botão azul com o nome "code", copiar o link https, abir o terminal em uma pasta desejada e digitar o seguinte comando e dê enter: <br/> <code> git clone <i>link copiado</i> </code><br/>
+Antes de mais nada utilize este comando para baixar todas dependências do projeto:<br/><code>npm install</code>. <br/>
+Após clonar o repositório abra o terminal nesta pasta que foi gerada e digite o seguinte comando: <br/><code>npm run dev</code> <br/>Aperte enter e terá seu projeto rodando no endereço <code>http://localhost:3000/</code>
